@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "The Abe Hiroshi",
+    "version": "1.0",
+    "description": "Enlarge 'next' link in Google search result.",
+    "homepage_url": "https://github.com/dadaa/3BaiNext",
+    "author": "Kai Fujiwara",
+    "content_scripts": [
+        {
+            "matches": ["*://abehiroshi.la.coocan.jp/*"],
+            "js": ["main.js"]
+    }
+  ]
+}
